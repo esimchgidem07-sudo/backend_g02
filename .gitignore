@@ -1,0 +1,46 @@
+# Global
+.DS_Store
+Thumbs.db
+*.log
+.idea/
+.vscode/
+
+# Python / Django (backend)
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+eggs/
+.eggs/
+pip-wheel-metadata/
+*.whl
+
+# Virtual environments
+venv/
+.venv/
+ENV/
+env/
+
+# Django project files
+backend/db.sqlite3
+backend/**/*.sqlite3
+backend/staticfiles/
+backend/media/
+backend/**/__pycache__/
+backend/**/migrations/__pycache__/
+
+# Environment files (backend)
+backend/.env
+backend/**/.env
+backend/config/.env
+
+# Test/coverage caches
+.pytest_cache/
+htmlcov/
+.coverage*
+.mypy_cache/
+.pytype/
